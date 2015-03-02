@@ -1,5 +1,7 @@
 package com.example.dropwizard;
 
+import com.example.dropwizard.resources.SubmitJobResource;
+
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;

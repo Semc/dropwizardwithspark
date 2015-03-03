@@ -4,10 +4,17 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class JobParameters {
 	
+	private String mainClass;
+	private String yarnNumWorkers;
+	private String yarnWorkersMem;
 	private String param1;
 
 	public JobParameters(String param1) {
 		this.param1 = param1;
+	}
+	
+	public JobParameters() {
+		// TODO Auto-generated constructor stub
 	}
 
 	@JsonProperty

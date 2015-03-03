@@ -1,0 +1,7 @@
+#First I will try to get this from env variable, otherwise get this value
+#app may be not able to submit if set incorrectly
+hadoopHome: /opt/hadoop
+#Main class that will be executed with Spark
+sparkMainClass: MainClass
+yarnNumWorkers: 2
+yarnWorkersMem: 2G

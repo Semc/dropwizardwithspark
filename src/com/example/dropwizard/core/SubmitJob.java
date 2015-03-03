@@ -12,6 +12,9 @@ public class SubmitJob {
 		this.data = data;
 	}
 	
+	public SubmitJob() {
+	}
+	
 	@JsonProperty
 	public long getId(){
 		return id;
@@ -23,8 +26,7 @@ public class SubmitJob {
 	}
 
 	public void execute() {
-		System.out.println(id);
-		System.out.println(data.getParam1());
+		
 	}
 
 }

@@ -10,8 +10,6 @@ public class SubmitJob {
 	public SubmitJob(long id, JobParameters data) {
 		this.id = id;
 		this.data = data;
-		System.out.println(data.getParam1());
-		System.out.println("Job submitted succesfully");
 	}
 	
 	@JsonProperty
@@ -25,7 +23,8 @@ public class SubmitJob {
 	}
 
 	public void execute() {
-		
+		System.out.println(id);
+		System.out.println(data.getParam1());
 	}
 
 }
